@@ -16,7 +16,7 @@ set -o pipefail
 
 # Start services
 rsyslogd
-dnsmasq
+service dnsmasq start
 
 
 # Execute command

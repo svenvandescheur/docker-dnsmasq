@@ -1,0 +1,2 @@
+# Run update-hosts script
+*/5 * * * * root /usr/local/bin/update-hosts.sh > /dev/null
