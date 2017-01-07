@@ -3,8 +3,7 @@ MAINTAINER Sven van de Scheur <svenvandescheur@gmail.com>
 
 # Install required packages
 RUN apt-get update && apt-get install -y \
-  dnsmasq \
-  dnsutils
+  dnsmasq
 
 # Add files
 ADD files /
